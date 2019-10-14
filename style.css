@@ -1,11 +1,19 @@
-body, body* {
+* {
     margin: 0;
     padding: 0;
-
+    font-family: 'Lato', sans-serif;
 }
 
 body {
     background: lightblue;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#header {
+    height: 200px;
+    background-color: burlywood;
+    margin-bottom: 10px;
 }
 
 article {
@@ -15,27 +23,7 @@ article {
     margin-bottom: 10px;   
 }
 
-#header {
-    height: 200px;
-    background-color: burlywood;
-}
+.btn-primary {
+    background: red;
+};
 
-
-
-
-
-/* .headline {
-    background: grey;
-}
-
-.text {
-    width: 98%;
-    height: 150px;
-    background: lightslategray;
-}
- */
-
-
-/* h2 class='date'></h2>
-        <h1 class='headline'></h1>
-        <p class='text'></p> */
