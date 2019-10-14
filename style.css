@@ -1,0 +1,41 @@
+body, body* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: lightblue;
+}
+
+article {
+    width: 40%;
+    background:lightgreen;
+    height: 20vh;
+    margin-bottom: 10px;   
+}
+
+#header {
+    height: 200px;
+    background-color: burlywood;
+}
+
+
+
+
+
+/* .headline {
+    background: grey;
+}
+
+.text {
+    width: 98%;
+    height: 150px;
+    background: lightslategray;
+}
+ */
+
+
+/* h2 class='date'></h2>
+        <h1 class='headline'></h1>
+        <p class='text'></p> */
