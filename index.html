@@ -25,21 +25,13 @@
             <input type="text" class="form-control" id="inputHeadline" placeholder="Please Enter Headline">
 
             <label for="Blogtext">Enter Blog</label>
-            <input type="text" class="form-control" id="inputText" placeholder="Please enter your blog text">
+            <textarea class="form-control" id="inputText" placeholder="Please enter your blog text"></textarea>
         </div><!-- /End of form -->
 
-        <button type="button" onclick="createArticle()" class="btn btn-primary btn-sm">Submit Post</button> 
-        <button type="button" onclick="removeArticle()" class="btn btn-primary btn-sm button">Remove Post</button> 
+        <button type="button" onclick="createArticle()" class="btn btn-primary btn-sm" id="submit-button">Submit Post</button> 
+        <button type="button" onclick="removeArticle()" class="btn btn-primary btn-sm button" id="remove-button">Remove Post</button> 
     </div><!-- /End of header -->
 
-    <div id="section"><!-- Start of posting section -->
-        <article>
-            <h2 class="date"></h2>
-            <h1 class="headline">This is a headline</h1>
-            <p class="text">This is a text
-            </p> 
-        </article>
-    </div><!-- /End of posting section -->
 </div><!-- /End of container-->
 
 <!-- Bootstrap and JS-->

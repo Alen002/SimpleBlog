@@ -5,28 +5,40 @@
 }
 
 body {
-    background: lightblue;
     margin-left: 5px;
     margin-right: 5px;
 }
 
 #header {
     height: 400px;
+    padding-left: 10px;
     background-color: burlywood;
     margin-bottom: 10px;
 }
 
 article {  /* format for the new article */
     width: 40%;
-    background:lightgreen;
     height: 20vh;
     margin-bottom: 10px;   
+    border-bottom: solid grey;
 }
+
 
 #inputDate {
     width: 170px;
 }
 
-#inputHeadline {
-    width: 80%;
+#inputHeadline, #inputText {
+    width: 50%;
+}
+
+#remove-button {
+    background: orangered;
+    border: none;
+}
+
+#submit-button {
+    background: lightgreen;
+    border: none;
+    color: black;
 }
