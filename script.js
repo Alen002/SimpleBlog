@@ -10,7 +10,7 @@ let number = 0;
     number = 'article_'+ countArticles(); // create the class name for the new article
 
     let newArticle = document.createElement('article') //create new article
-    const selectDiv = document.querySelector('div'); //select parent
+    const selectDiv = document.querySelector('#articles'); //select parent
 
     newArticle.className = number; //add class name for newly created article
     selectDiv.appendChild(newArticle); //append the article  
@@ -40,3 +40,9 @@ function removeArticle() { // removes the last article created
     document.querySelectorAll('article')[a-1].remove(); //remove last article
     console.log('Article removed' + a);
 };
+
+function clearForm() { 
+    document.querySelectorAll('.form-control').forEach((entries) => {
+        entries.value = '';
+    });
+}
