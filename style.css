@@ -11,19 +11,22 @@ body {
 }
 
 #header {
-    height: 200px;
+    height: 400px;
     background-color: burlywood;
     margin-bottom: 10px;
 }
 
-article {
+article {  /* format for the new article */
     width: 40%;
     background:lightgreen;
     height: 20vh;
     margin-bottom: 10px;   
 }
 
-.btn-primary {
-    background: red;
-};
+#inputDate {
+    width: 170px;
+}
 
+#inputHeadline {
+    width: 80%;
+}
